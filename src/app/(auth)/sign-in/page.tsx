@@ -1,9 +1,9 @@
+import SignIn from '@/components/SignIn'
 import { buttonVariants } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
 import { ChevronLeft } from 'lucide-react'
 import Link from 'next/link'
 import { FC } from 'react'
-import SignIn from '@/components/SignIn'
 
 const page: FC = () => {
   return (
@@ -19,9 +19,11 @@ const page: FC = () => {
           <ChevronLeft className="mr-2 h-4 w-4" />
           Home
         </Link>
-        <SignIn/>
+
+        <SignIn />
       </div>
     </div>
   )
 }
+
 export default page

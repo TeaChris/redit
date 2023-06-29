@@ -5,10 +5,9 @@
   "tailwind": {
     "config": "tailwind.config.js",
     "css": "app/globals.css",
-    "baseColor": "zinc",
+    "baseColor": "neutral",
     "cssVariables": true
   },
-  "toast": "latest",
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils"
